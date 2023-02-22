@@ -1,0 +1,129 @@
+/* https://unsplash.com/photos/-HGCYpJFwQA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink*/
+
+html{
+    margin: 0;
+    padding:0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.background-img{
+    height:100%;
+    width: 40vw;
+}
+
+.logo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 40vw;
+    top: 20vh;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo-img{
+    width:4vw;
+    padding: 2%;  
+}
+
+.right-container{
+    background-color: whitesmoke;
+    color:black;
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2% 2%;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+h3{
+    font-size: 1.3em;
+    margin-left: 3%;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    width:100%;
+    padding-top:3%;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    width:540px;
+    height: 10%;
+    padding-bottom:3%;
+    
+}
+
+
+input{
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    outline: none;
+    margin:0;
+    padding: 5px;
+}
+
+input:focus{
+    outline: none;
+    border:2px solid #2f7d6f;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input:user-invalid{
+    border:2px solid red;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account {
+    padding: 1%;
+    margin: 2% 4% 2%;
+    width:300px;
+    background-color:#2f7d6f;
+    font-size: 1.2em;
+    border-radius: 20px;
+    border-style:hidden;
+}
+
+.create-account:hover{
+    opacity: 0.9;
+}
+
+.login-link{
+    text-decoration: none;
+    color:#2f7d6f;
+}
+
+.footer{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height:100%;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="left-container">
+        <img class ="background-img" src="images/srijan-mohan--HGCYpJFwQA-unsplash.jpg">
+
+        <div class="logo-box">
+
+            <img class ="logo-img" src="images/odin-lined.png">
+            <h1 class="odin">ODIN</h1>
+        </div>
+
+    </div>
+
+    <div class="right-container">
+
+        <div class="message-container">
+            
+            <h2> A day at the beach!</h2>
+
+            <p> Calling all beach lovers! It is now time to sign up for your 2023 beach reservations</p>
+
+            <p> Create an account and then select your reservation date and time to ensure your spot!</p>
+
+        </div>
+
+            <div class="form-container">
+
+                <h3> Sign Up Today!</h3>
+
+                <form action="#" method="get" id="sign-up-info">
+
+                    <div class="input-group">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" placeholder="" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last name" placeholder="" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email_address">Email Address</label>
+                        <input type="email" id="email_address" placeholder="" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="tel" id="phone_number" placeholder="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" minlength="5" maxlength="20" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" id= "confirm_password" minlength="5" maxlength="20" required>
+                    </div>
+                    
+                </form>
+                
+            </div>
+
+            <div class="footer">
+
+                <button type="submit" class="create-account" form="sign-up-info">Create Account</button>
+
+                <h3>Already have an account? <a class="login-link" href="#">login</a></h3>
+
+            </div>
+    </div>
+
+</body>
+</html>
