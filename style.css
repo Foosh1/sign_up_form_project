@@ -1,50 +1,71 @@
 /* https://unsplash.com/photos/-HGCYpJFwQA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink*/
 
-html{
-    margin: 0;
-    padding:0;
-}
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    width: 100vw;
+
+html, body{
     height: 100vh;
+    width:100vw;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+}
+
+.left-container{
+    height: 100%;
+    width: 40%;
+    position: relative;
 }
 
 .background-img{
     height:100%;
-    width: 40vw;
+    width: 100%;
 }
 
 .logo-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    font-family: 'Times New Roman', Times, serif;
+    
     color: white;
-    width: 40vw;
-    top: 20vh;
+    position: absolute;
+    width: 100%;
+    top: 20%;
     left:0;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
 .logo-img{
-    width:4vw;
+    width:10%;
     padding: 2%;  
+}
+
+.photo-credit{
+    padding-left: 3%;
+    color:white;
+    position: relative;
+    bottom:10%;
+}
+
+.credit-link{
+    color:white;
+    text-underline-offset: 3px;
 }
 
 .right-container{
     background-color: whitesmoke;
     color:black;
-    width:100%;
-    height: auto;
+    width:60%;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .message-container{
+    height:auto;
     display: flex;
     flex-direction: column;
     padding: 2% 2% 2%;
@@ -65,6 +86,7 @@ h3{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: white;
     width:100%;
+    height:auto;
     padding-top:3%;
 }
 
